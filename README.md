@@ -10,7 +10,7 @@ Here is the simple way to change your android apps Launcher icon and Application
 package com.misles.dynamiclaunchericon
 
 class OneLauncherAlias {
-    // No bocdimplementation required for this setup.
+    // No implementation required for this setup.
 }
 ```
 
