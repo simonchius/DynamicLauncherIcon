@@ -4,7 +4,7 @@
 Sample project for changing the app icon and app name dynamically. 
 
 <br>
-**Note that the gradle build files are written in Kotlin***
+**Note that the gradle build files are written in Kotlin**
 <br>
 
 **Steps** <br>
