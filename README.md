@@ -1,5 +1,5 @@
 
-# Dynamic Launcher Icon and Name
+# Dynamic Launcher Icon and Name for Android
 
 Sample project for changing the app icon and app name dynamically. Note that the gradle build files are written in Kotlin (.kts)
  
