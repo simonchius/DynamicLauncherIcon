@@ -5,6 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#f0f0f0"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
@@ -23,29 +24,50 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:padding="10dp">
 
-    <TextView android:layout_width="match_parent" android:layout_height="50dp"
-              android:layout_marginTop="20dp"
-              android:layout_gravity="center"
-              android:textSize="16dp"
-              android:id="@+id/one"
-              android:gravity="center"
-              android:text="Select Launcher One"/>
 
-    <TextView android:layout_width="match_parent" android:layout_height="50dp"
-              android:layout_marginTop="20dp"
-              android:layout_gravity="center"
-              android:textSize="16dp"
-              android:id="@+id/two"
-              android:gravity="center"
-              android:text="Select Launcher Two"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="16dp"
+                  android:id="@+id/one"
+                  android:gravity="left|center_vertical"
+                  android:paddingLeft="10dp"
+                  android:text="Launcher One"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:padding="10dp">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="16dp"
+                  android:id="@+id/two"
+                  android:gravity="left|center_vertical"
+                  android:paddingLeft="10dp"
+                  android:text="Launcher Two"/>
 
-    <TextView android:layout_width="match_parent" android:layout_height="50dp"
-              android:layout_marginTop="20dp"
-              android:layout_gravity="center"
-              android:textSize="16dp"
-              android:id="@+id/three"
-              android:gravity="center"
-              android:text="Select Launcher Three"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:padding="10dp">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="16dp"
+                  android:id="@+id/three"
+                  android:gravity="left|center_vertical"
+                  android:paddingLeft="10dp"
+                  android:text="Launcher Three"/>
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>
