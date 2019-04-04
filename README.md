@@ -86,4 +86,4 @@ one.setOnClickListener{
 
 #Screenshots 
 <br>
-<img src="./Screenshots/one.png" width="30%" />       <img src="./Screenshots/two.png" width="30%" />
+<img src="./Screenshots/outptn.gif" width="30%" />
