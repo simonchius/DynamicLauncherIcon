@@ -1,10 +1,10 @@
 
 # Dynamic Launcher Icon and Name for Android
 
-Sample project for changing the app icon and app name dynamically. Note that the gradle build files are written in Kotlin (.kts)
+Here is the simple way to change your android apps Launcher icon and Application name dynamically. Note that the gradle build files are written in Kotlin (.kts)
  
 **Steps:** <br><br>
-*Step 1* <br>Create empty class each for the number of icons wanted to declear. In my example, it is OneLauncherAlias.kt, TwoLauncherAlias.kt and ThreeLauncherAlias.kt
+*Step 1* <br>Create an empty class each for the number of icons wanted to declare. In my example, it is OneLauncherAlias.kt, TwoLauncherAlias.kt and ThreeLauncherAlias.kt
 
 ```
 package com.misles.dynamiclaunchericon
@@ -16,7 +16,7 @@ class OneLauncherAlias {
 
 *Step 2* <br>
 
-Add Activity alias in your **AndroidManifest.xml**
+Add activity-alias in your **AndroidManifest.xml**
 
 ```
 <activity-alias
@@ -58,7 +58,7 @@ Add Activity alias in your **AndroidManifest.xml**
  ```
  
  *Step 3* <br>
-  Enable and disable the activity-alias based on your requirment. In my example, On click of the one layout, i am enabling the activity-alias OneLauncherAlias and disabling the rest.
+  Enable and disable the activity-alias based on your requirement. In my example, On click of the one layout, I am enabling the activity-alias OneLauncherAlias and disabling the rest.
   
 ```
 one.setOnClickListener{
