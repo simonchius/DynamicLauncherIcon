@@ -1,12 +1,8 @@
 
 # Dynamic Launcher Icon and Name
 
-Sample project for changing the app icon and app name dynamically. 
-
-<br>
-**Note that the gradle build files are written in Kotlin**
-<br>
-
+Sample project for changing the app icon and app name dynamically. Note that the gradle build files are written in Kotlin (.kts)
+ 
 **Steps** <br>
 *Step 1* <br>Create empty class each for the number of icons wanted to declear. In my example, it is OneLauncherAlias.kt, TwoLauncherAlias.kt and ThreeLauncherAlias.kt
 
