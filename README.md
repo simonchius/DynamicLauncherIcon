@@ -4,5 +4,6 @@
 Sample project for changing the app icon and app name dynamically
 
 
-#Screenshots
+#Screenshots 
+<br>
 <img src="./Screenshots/one.png" width="30%" />       <img src="./Screenshots/two.png" width="30%" />
